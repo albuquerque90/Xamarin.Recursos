@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XF.Recursos.Lista.ListaEtiquetaView">
-
     <ListView x:Name="lstEtiqueta"
           IsGroupingEnabled="true" ItemSelected="lstEtiqueta_ItemSelected"
   		  GroupDisplayBinding="{Binding Titulo}" ItemTapped="OnItemTapped"
@@ -19,5 +18,6 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
+
 
 </ContentPage>
